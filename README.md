@@ -16,7 +16,7 @@ Although it is beyond me how a 25+ year old game doesn't provide general feature
 
 ## How to update your profiles
 
-1. Download the zip files from GitHub by clicking the following link to download the repo code [HERE](https://github.com/cwjking611/uo-outlands-profiles/archive/refs/)heads/main.zip
+1. Download the zip files from GitHub by clicking the following link to download the repo code [HERE](https://github.com/cwjking611/uo-outlands-profiles/archive/refs/heads/main.zip)
 1. Extract the files
 1. Know the install path for your Ultima Online Classic Files.
 
