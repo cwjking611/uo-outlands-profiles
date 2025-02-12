@@ -49,7 +49,7 @@ Go to Cooldowns to update any Specific ones possibly missing
 ## Moving Profiles between characters that you want to share.
 
 1. Once finsihed testing profiles you may want to move and shift them around between other characters. Its good to simply use a fresh character for profile testing and cloning.
-1. To clone profiles from the character you just log into the character that you want the profile on and go to `Paper Dolla` > `Options` > `Profile Manager`
+1. To clone profiles from the character you just log into the character that you want the profile on and go to `Paper Dolla` > `Options` > `Profile Manager` > `Clone`
 1. Here you can choose the template account, shard, and character to copy specific profile elements from.
 1. Just play around and experiemnt with what works for you.
 
