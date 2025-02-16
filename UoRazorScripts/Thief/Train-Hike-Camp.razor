@@ -1,0 +1,20 @@
+if not timerexists 'hideTimer'
+    createtimer 'hideTimer'
+    settimer 'hideTimer' 10500
+endif
+
+if skill 'hiding' < 100
+    if timer 'hideTimer' >= 10500
+        useskill 'Hiding'
+        settimer 'hideTimer' 0
+        wait 500
+    endif
+endif
+
+if skill 'camping' < 100
+        dclicktype "kindling" backpack
+        wait 1000
+    endif
+endif
+wait 500
+loop

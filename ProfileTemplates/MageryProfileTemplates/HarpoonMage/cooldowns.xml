@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<cooldowns>
+	<cooldownentry name="Flag Timer" defaultcooldown="0" cooldownbartype="Regular" hue="99" pauseduringworldsaves="True" hidewheninactive="False">
+		<trigger triggertype="SysMessage" duration="60" triggertext="flag 100%" />
+	</cooldownentry>
+	<cooldownentry name="Summon" defaultcooldown="0" cooldownbartype="Regular" hue="133" pauseduringworldsaves="False" hidewheninactive="False">
+		<trigger triggertype="SysMessage" duration="100" triggertext="You have too many followers" />
+	</cooldownentry>
+</cooldowns>

@@ -1,0 +1,32 @@
+# Simple Animal Training by Jaseowns
+# UO Outlands
+@setvar! tameThisThing 0
+while findtype "a wisp" ground -1 -1 8 as janimal
+    getlabel janimal desc
+    if "released" in desc
+        // ignore them
+        @ignore janimal
+    elseif "tame" in desc or "bonded" in desc
+        // ignore them
+        @ignore janimal
+    else
+        @setvar! tameThisThing janimal
+        break
+    endif
+endwhile
+
+if tameThisThing != 0
+    while not dead tameThisThing 
+        overhead "¶ we trying to tame ¶" 88 tameThisThing
+        getlabel tameThisThing desc
+        if "released" in desc or "tame" in desc or "bonded" in desc
+            break
+        endif
+        useskill "taming"
+        wft 1000
+        target tameThisThing
+        wait 2500
+    endwhile
+else
+    overhead "Nothing to tame" 34
+endif

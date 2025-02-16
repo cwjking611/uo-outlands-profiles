@@ -1,0 +1,52 @@
+// Prompt the user to target the container.
+// 
+promptTarget "Target the container to move items from"
+
+// Store the targeted container's ID.
+set #containerID #targetID
+
+// Check if a target was selected.
+if #containerID == 0
+    sysmessage "No container targeted."
+    exit
+endif
+
+// Get the backpack ID.
+set #backpackID $backpack
+
+// Check if the backpack is accessible.
+if #backpackID == 0
+    sysmessage "Backpack not found or not accessible."
+    exit
+endif
+
+// Find all items in the container.
+finditem #item #containerID 0xFFFF // 0xFFFF finds all item types
+
+// Loop through each item found.
+while #item != 0
+
+    // Check if the item is movable.
+    if $item.movable
+
+        // Move the item to the backpack.
+        moveitem #item #backpackID
+
+        // Wait for the move to complete. Adjust the delay if needed.
+        waitfor 500
+
+        // Optional: Check if the move was successful (not always reliable).
+        // if $item.container == #backpackID
+        //     sysmessage "Moved " + $item.name
+        // endif
+
+    else
+        sysmessage "Item " + $item.name + " is not movable."
+    endif
+
+    // Find the next item in the container.
+    finditem #item #containerID 0xFFFF next
+
+endwhile
+
+sysmessage "Finished moving items."

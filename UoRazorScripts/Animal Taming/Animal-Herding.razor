@@ -1,0 +1,21 @@
+setvar! AnimalLore
+
+while not dead and not hidden
+   
+ // Herding training
+ 
+    if findtype "shepherd's crook" backpack as crook
+    dclick crook
+    wait 2100 // Pause after Herding training
+    endif
+
+ // AnimalLore training
+
+    if skill "animallore" < 120
+        useskill "animallore"
+        wft 300
+        target AnimalLore
+        wait 2100 // Pause after AnimalLore training
+    endif
+
+endwhile

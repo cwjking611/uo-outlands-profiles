@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<gumps>
+	<anchored_group_gump matrix_w="1" matrix_h="3">
+		<gump type="25" x="1598" y="305" serial="0" entryname="No CoolDown" matrix_x="0" matrix_y="0" />
+		<gump type="25" x="1598" y="337" serial="0" entryname="Bandage" matrix_x="0" matrix_y="1" />
+		<gump type="7" x="1598" y="369" serial="1008" name="follow" graphicId="0" hideLabel="False" scale="1" matrix_x="0" matrix_y="2" />
+	</anchored_group_gump>
+	<gump type="2" x="1635" y="380" serial="1255679761" graphic="60" isminimized="False" iscarried="True" />
+	<gump type="12" x="1509" y="729" serial="0" />
+	<gump type="9" x="1427" y="394" serial="1859457" isminimized="False" />
+	<gump type="3" x="1515" y="182" serial="0" rows="3" columns="10" rectsize="40">
+		<controls>
+			<control graphic="5359" hue="2213" />
+			<control graphic="29389" hue="2091" />
+			<control graphic="3999" hue="0" />
+			<control graphic="3617" hue="0" />
+			<control graphic="2429" hue="0" />
+			<control graphic="3847" hue="0" />
+			<control graphic="25750" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+			<control graphic="0" hue="0" />
+		</controls>
+	</gump>
+	<gump type="8" x="1679" y="-2" serial="0" isminimized="False" />
+	<gump type="1" x="1686" y="907" serial="0" graphic="30080" direction="1" />
+	<gump type="5" x="1160" y="986" serial="0" />
+</gumps>
