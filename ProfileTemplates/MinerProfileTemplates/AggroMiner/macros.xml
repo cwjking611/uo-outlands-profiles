@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<macros>
+	<macro name="Paperdoll" key="112" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="10" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Options" key="111" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="9" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Journal" key="106" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="12" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Open Status Bar" key="115" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="11" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Backpack" key="105" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="16" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Radar" key="114" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="17" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="Bow" key="98" mousebutton="0" alt="False" ctrl="True" shift="False">
+		<actions>
+			<action code="18" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="Salute" key="115" mousebutton="0" alt="False" ctrl="True" shift="False">
+		<actions>
+			<action code="19" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="tame" key="1073741885" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="13" subcode="35" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="aspectexp" key="1073741884" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="[showaspectexperience" />
+		</actions>
+	</macro>
+	<macro name="saycrap" key="1073741889" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="Guards Bank Room" />
+		</actions>
+	</macro>
+	<macro name="hide" key="104" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="13" subcode="43" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="NW" key="119" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="5" subcode="1" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="SW" key="97" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="5" subcode="7" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="NE" key="100" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="5" subcode="3" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="SE" key="115" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="5" subcode="5" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="hiding" key="104" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="0" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="chivheal" key="106" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="[holylight" />
+			<action code="23" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="last obj" key="122" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="17" subcode="0" submenutype="0" />
+		</actions>
+	</macro>
+	<macro name="skills" key="107" mousebutton="0" alt="True" ctrl="False" shift="False">
+		<actions>
+			<action code="8" subcode="13" submenutype="1" />
+		</actions>
+	</macro>
+	<macro name="all release" key="114" mousebutton="0" alt="False" ctrl="False" shift="False">
+		<actions>
+			<action code="1" subcode="0" submenutype="2" text="all release" />
+		</actions>
+	</macro>
+</macros>

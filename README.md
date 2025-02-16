@@ -15,6 +15,21 @@ Although it is beyond me how a 25+ year old game doesn't provide general feature
 1. Preconfigured Video Settings
 1. NamePlate Adjustments
 
+## What is in this repo?
+Files to copy into the Install path for the UO Client. 
+
+Your directory for ultima will be installed in a directory similar to this if defaulted: `C:\Program Files (x86)\Ultima Online Outlands\ClassicUO\Data`
+
+Under `Data` you will have `Profiles` and `Plugins` 
+1. Data folder > Copy ProfileTemplates into the directory for the appropriate character.
+Example Install Path with Character: `C:\Program Files (x86)\Ultima Online Outlands\ClassicUO\Data\Profiles\Latticuss\UO Outlands\WeedaLit`
+1. Plugins > Copy UO Razor Scripts into Scripts folder.
+Example Path with Razor Scripts: `C:\Program Files (x86)\Ultima Online Outlands\ClassicUO\Data\Plugins\Assistant\Scripts`
+1. Razor Profiles = Key bindings for build in hotkeys and scripts that are configured in the UO client.
+Example Path Install with Razor Profiles: `
+1. UO Outland Template Profiles can be found [here](./ProfileTemplates/)
+1. Razor Profile for synchronization between client macros and Razor Hotkeys / Macros [here](./RazorProfiles/)
+1. UO Razor Scripts for downloading into the `UO Install Path/
 
 ## How to update your profiles
 

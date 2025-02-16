@@ -1,0 +1,34 @@
+// Get the backpack ID.
+set #backpackID $backpack
+
+// Check if the backpack is accessible.
+if #backpackID == 0
+    sysmessage "Backpack not found or not accessible."
+    exit
+endif
+
+// Find all Magery scrolls in the world (you can also search a specific container if needed).
+finditem #scroll 0x1F2D  // 0x1F2D is the item ID for Magery Scrolls
+
+// Loop through each scroll found.
+while #scroll != 0
+
+    // Check if the scroll is movable.
+    if $scroll.movable
+
+        // Move the scroll to the backpack.
+        moveitem #scroll #backpackID
+
+        // Wait for the move to complete. Adjust the delay if needed.
+        waitfor 200 // Shorter wait is usually sufficient for scrolls
+
+    else
+        sysmessage "Scroll " + $scroll.name + " is not movable."
+    endif
+
+    // Find the next Magery scroll.
+    finditem #scroll 0x1F2D next
+
+endwhile
+
+sysmessage "Finished moving Magery scrolls."
