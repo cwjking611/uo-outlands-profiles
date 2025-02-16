@@ -3,17 +3,7 @@ This repo is used for storing Profiles related to Ultima Online Classic Client. 
 
 ## Why is this needed?
 
-When a character is new to outlands the entire interface at its bare bones is nearly unplayable.  This is just a simple attempt at simplfying UO for new players as well as those who want to learn or contribute to making the learning curve a bit less burdensome.
-
-Although it is beyond me how a 25+ year old game doesn't provide general features such as Macros, Hotkeys, or Interface interactions you can greatly customize it to your liking.  These are general purpose templates with the following items customized for you.  What you can assume is profile specific naming will reflect the expected experience.  I.e. A `Miner` template will give you the `Miner` customizations but you are free to adjust this to your playstyle.
-
-1. Cooldowns - provided by Jase and updated here as cooldown meters are nice to see to know when you can pop off other skills.
-1. Macros also included for each template. 
-1. Macros Buttons also included for each template.
-1. Counter Grid with preconfigured item types based on the template used.
-1. Targeting, Spell, WASD movement, and much more.
-1. Preconfigured Video Settings
-1. NamePlate Adjustments
+New players may be lost when first joining UO Outlands. This includes profiles, scripts, and pre-configured settings that if copied into the appropriate places can load into the client and reduce the massive learning curve of learning to confiugre everything A-Z
 
 ## What is in this repo?
 Files to copy into the Install path for the UO Client. 
@@ -25,11 +15,8 @@ Under `Data` you will have `Profiles` and `Plugins`
 Example Install Path with Character: `C:\Program Files (x86)\Ultima Online Outlands\ClassicUO\Data\Profiles\Latticuss\UO Outlands\WeedaLit`
 1. Plugins > Copy UO Razor Scripts into Scripts folder.
 Example Path with Razor Scripts: `C:\Program Files (x86)\Ultima Online Outlands\ClassicUO\Data\Plugins\Assistant\Scripts`
-1. Razor Profiles = Key bindings for build in hotkeys and scripts that are configured in the UO client.
-Example Path Install with Razor Profiles: `
-1. UO Outland Template Profiles can be found [here](./ProfileTemplates/)
-1. Razor Profile for synchronization between client macros and Razor Hotkeys / Macros [here](./RazorProfiles/)
-1. UO Razor Scripts for downloading into the `UO Install Path/
+1. Razor Profiles = Key bindings for build in hotkeys and scripts that are configured in the UO client. Copy these under assistant in `Profiles`
+Example Path Install with Razor Profiles: `C:\Program Files (x86)\Ultima Online Outlands\ClassicUO\Data\Plugins\Assistant\Profiles`
 
 ## How to update your profiles
 
@@ -74,13 +61,14 @@ Go to Cooldowns to update any Specific ones possibly missing
 
 ## To Do
 
-1. Include Razor profiles to streamline the play
-1. Keep in mind PVP scripts will be dead soon so we may not have to focus on those
+1. Include Razor profiles to streamline the play - Done
+1. Tamer Completed
 1. Need a general crafter template
 1. May need a general scavenger / lock picker template
-1. Need a Tamer / Summon specific template (these may need to be 2)
 1. Need a Barder Specific Template
 1. PVP Tailored templates without dependency on Razor (Future Release)
+1. Add quick recall script or basic home recall.
+1. Update spell MACROS on some profiles.
 
 ## Special Thanks
 
