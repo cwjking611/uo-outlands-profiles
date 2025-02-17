@@ -374,7 +374,7 @@
 	<macro name="Animal Tame" key="116" mousebutton="0" alt="False" ctrl="False" shift="False">
 		<actions>
 			<action code="13" subcode="35" submenutype="1" />
-			<action code="22" subcode="0" submenutype="0" />
+			<action code="25" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 	<macro name="All Kill" key="110" mousebutton="0" alt="False" ctrl="True" shift="False">
@@ -451,47 +451,6 @@
 	<macro name="Pull Followers" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
 		<actions>
 			<action code="1" subcode="0" submenutype="2" text="[PullFollowers" />
-		</actions>
-	</macro>
-	<macro name="=== BARDING ===" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
-		<actions>
-			<action code="0" subcode="0" submenutype="0" />
-		</actions>
-	</macro>
-	<macro name="Peace Target" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
-		<actions>
-			<action code="13" subcode="48" submenutype="1" />
-			<action code="25" subcode="0" submenutype="0" />
-		</actions>
-	</macro>
-	<macro name="Area Peace" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
-		<actions>
-			<action code="13" subcode="48" submenutype="1" />
-			<action code="25" subcode="0" submenutype="0" />
-		</actions>
-	</macro>
-	<macro name="Discord Target" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
-		<actions>
-			<action code="13" subcode="40" submenutype="1" />
-			<action code="25" subcode="0" submenutype="0" />
-		</actions>
-	</macro>
-	<macro name="Area Discord" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
-		<actions>
-			<action code="13" subcode="40" submenutype="1" />
-			<action code="25" subcode="0" submenutype="0" />
-		</actions>
-	</macro>
-	<macro name="Area Provoke" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
-		<actions>
-			<action code="13" subcode="50" submenutype="1" />
-			<action code="25" subcode="0" submenutype="0" />
-		</actions>
-	</macro>
-	<macro name="Provoke Target" key="0" mousebutton="0" alt="False" ctrl="False" shift="False">
-		<actions>
-			<action code="13" subcode="50" submenutype="1" />
-			<action code="25" subcode="0" submenutype="0" />
 		</actions>
 	</macro>
 </macros>
