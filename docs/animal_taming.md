@@ -1,6 +1,6 @@
 # 🐾 Animal Taming & Pet Compositions 🐾
 
-## 🐾 Animal Taming 🐾
+## 🐾 Tamer Builds
 
 ### Introduction
 This section will provide details on various tamer builds in Ultima Online Outlands, including skills, stats, and strategies.
@@ -15,7 +15,7 @@ This section will provide details on various tamer builds in Ultima Online Outla
 - **Stats:** Recommended stats
 - **Strategies:** Tips and strategies
 
-## ⚔️ Pet Compositions ⚔️
+## ⚔️ Pet Compositions
 
 ### Introduction
 This section will cover different pet compositions for tamers in Ultima Online Outlands, including the strengths and weaknesses of each composition.
