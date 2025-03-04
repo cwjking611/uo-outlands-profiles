@@ -6,8 +6,8 @@ Welcome to Latt’s UO Outlands Hub, managed by Latticus (Latt). This resource p
 ## Table of Contents
 - [UO Outlands Crafting in a Nutshell](crafting.md) - Related discussions and data
 - [Animal Taming](animal_taming.md) - Taming mechanics and tips
-  - [Taming Templates and Builds](animal_taming.md#tamer-builds) - Tamer builds details
-  - [Pet Team Compositions](animal_taming.md#pet-compositions) - Pet team compositions
+  - [Taming Templates and Builds](animal_taming.md#🐾-tamer-builds) - Tamer builds details
+  - [Pet Team Compositions](animal_taming.md#⚔️-pet-compositions) - Pet team compositions
 - [Harvesting](harvesting.md) - Resource gathering strategies
 - [Barding](barding.md) - Bardic skill enhancements
 - [Thieving](thieving.md) - Thieving techniques
